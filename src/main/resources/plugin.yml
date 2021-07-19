@@ -1,0 +1,9 @@
+name: SimpleBan
+version: ${project.version}
+main: com.redspeaks.simpleban.SimpleBan
+api-version: 1.16
+commands:
+  checkban:
+    description: check for remaining ban
+  ban:
+    description: ban player

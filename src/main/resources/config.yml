@@ -1,0 +1,30 @@
+# Specified ban reasons
+# -1 for permanent ban
+# 1s - seconds or simply put 1
+# 1m - 1 minute
+# 1h - 1 hour
+# 1d - 1 day
+# 1w - 1 week
+# 1mt - 1 month
+# 1y - 1 year
+# Correct format: 1y 1w 1h 1m 1s
+ban-reasons:
+  hacking:
+    timeframe: '1y'
+  disrespecting:
+    timeframe: '1m'
+  racist:
+    timeframe: '-1'
+
+# mysql or sqlite
+database: 'mysql'
+mysql:
+  host: 'localhost'
+  port: '3306'
+  database: 'mydb'
+  user: 'root'
+  pass: ''
+
+sqlite:
+  filename: 'mydb'
+
